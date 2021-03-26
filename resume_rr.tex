@@ -1,0 +1,105 @@
+\documentclass[french]{article}
+\usepackage[utf8]{inputenc}
+\usepackage{physics}
+\usepackage[T1]{fontenc}
+\usepackage[a4paper, inner=1.5cm, outer=3cm, top=2cm,
+bottom=3cm, bindingoffset=1cm]{geometry}
+\usepackage{siunitx}
+\usepackage{amssymb}
+\usepackage{xcolor}
+\usepackage{fancyhdr}
+\fancyhf{}
+\pagestyle{fancy}
+\rhead{\itshape A.REDJIL}
+\lhead{Section B/Section A }
+\chead{Resume de Formule de Relativité Restreinte}
+\rfoot{Page \thepage}
+\setlength\parindent{0pt}
+\begin{document}
+	\begin{center}
+		\begin{tabular}{| c | c |}
+			\hline
+			\textbf{Titre} & \textbf{Expression}\\
+			\hline
+			La vitesse de la lumière est invariante&$c = 3\times10^8 \si{\frac{\meter}{\second}}$\\
+			\hline
+			Un événement repéré dans R&$ \underline{r}=\mqty[c t& x&y&z]^t $ \\
+			\hline
+			La Matrice de Lorentz &$L = \mqty(\gamma & -\gamma\beta & 0 & 0 \\ -\gamma\beta& \gamma&0&0\\0&0&1&0\\0&0&0&1)$\\
+			\hline
+			L'Inverse de la Matrice de Lorentz&$L^{-1} = \mqty(\gamma & \gamma\beta & 0 & 0 \\ \gamma\beta& \gamma&0&0\\0&0&1&0\\0&0&0&1)$\\
+			\hline
+			L'expression de $\underline{r'}$ dans le repéré R&$\underline{r'}=L\underline{r}$\\
+			\hline
+			L'expression de $\underline{r}$ dans le repéré R' &$\underline{r}=L^{-1}\underline{r'}$\\
+			\hline
+			L’intervalle $\Delta s ^2$(invariant)&$\Delta S^2=c^2t^2-L^2, L^2=\Delta x ^2 +\Delta y ^2 + \Delta z ^2$\\
+		\hline
+		Contraction des longueurs&$L=\frac{L_0}{\gamma}$\\
+		\hline
+		Dilatation du temps&$\Delta t = \gamma \Delta \tau$ \\
+		\hline
+		Temps propre& $dt=\gamma_ud\tau$\\
+		\hline
+		Transformation des vitesses&$u_x = \frac{u_x'+V}{1 +\frac{\beta}{c}u_x'},
+				 u_y = \frac{u_y'}{\gamma(1 +\frac{\beta}{c}u_x')}, 
+				 u_z = \frac{u_z'}{\gamma(1 +\frac{\beta}{c}u_x')}$\\
+		\hline
+Transformation des accélérations&
+	$a_x' = \frac{a_x}{\gamma^3\left(1 - \frac{\beta}{c}u_x\right)^3},
+	a_y' = \frac{a_y + a_x \frac{\frac{\beta}{c}u_y}{1-\frac{\beta}{c}u_x}}{\gamma ^2\left(1-\frac{\beta}{c}u_x\right)^2}, 
+		a_z' = \frac{a_z + a_x \frac{\frac{\beta}{c}u_z}{1-\frac{\beta}{c}u_x}}{\gamma ^2\left(1-\frac{\beta}{c}u_x\right)^2}$	
+\\
+\hline
+Effet Doppler&$\omega'=\gamma\omega\left(1-\beta\cos(\theta)\right),
+	\tan(\theta')= \frac{\sin(\theta)}{\gamma\left(\cos(\theta)-\beta\right)}$\\
+\hline
+Aberration&n = $\frac{dN}{d\Omega}= n_0\frac{1}{\gamma^2\left(1-\beta\cos(\theta)^2\right)}$\\
+\hline
+Quadrivecteur d’onde&$\underline{k}= \mqty(\frac{\omega}{x} &\vec{k})^t$\\
+\hline
+Quadrivecteur impulsion&$\underline{p}=m \underline{u}=\mqty(\gamma_u mc & \gamma_u m\vec{u})^t=\mqty(\frac{E}{c}&\vec{p})^t$\\
+\hline
+Quadrivecteur force&$\underline{F}=\frac{d\underline{p}}{d\tau}= m \underline{a}= \mqty(\gamma_umc\frac{d \gamma_u}{dt}&\gamma_u \frac{d\vec{p}}{dt})^t =\mqty(\frac{\gamma_u}{c}\vec{F}\vec{u}&\gamma_u\vec{F})^t$\\
+\hline
+Energies&$T = \left(\gamma_u-1\right)mc^2$\\
+\hline
+Relations force-acceleration&$\vec{F}=m\gamma_u\left(\vec{a}+\gamma_u^2\frac{\vec{u}\vec{a}}{c^2}\right), F_{||}=m\gamma_u^3a_T, F_{\perp}= m\gamma_ua_N$\\
+\hline
+Transformation des forces&$\underline{F'}= L\underline{F}$\\
+\hline
+Collisions relativistes&$p_{avant} = p_{apres}$(pour
+un système isolé.)\\
+\hline
+Quadri-gradient&$\underline{\nabla}=\mqty(\pdv{ct}&-\vec{\nabla})^t, (\underline{\nabla'}=L\underline{\nabla})$\\
+\hline
+Quadri-vecteur ! densité de courant&$\underline{J}= \rho_0\mqty(\gamma_uc&\gamma_u\vec{u})^t$\\
+\hline
+Quadripotentiel&$\underline{A}=\mqty(\frac{\phi}{c}& A)^t$\\
+\hline
+La jauge de Lorenz&$\underline{\nabla}.\underline{A}=0$\\
+\hline
+Lagrangien relativiste (Particule Libre)&$L_{Libre}= -mc^2\sqrt{1-\beta_u^2}$\\
+\hline
+Lagrangien d’Interaction&$L = L_{libre}+L_{inter}=-mc^2\sqrt{1-\beta_u^2}-q\left(\phi-\vec{A}.\vec{u}\right)$\\
+\hline
+L’Hamiltonien Relativiste&$H = \sqrt{m^2c^4+\left(\vec{\pi}-q\vec{A}\right)^2c^2}+q\phi$
+\\
+\hline
+
+
+
+		
+			
+			
+			
+		\end{tabular}
+	\end{center}
+\underline{remarque:} $\mqty(a&b&c&d)^t= \mqty(a\\b\\c\\d)$ 
+\begin{thebibliography}{9}
+	\bibitem{Cours}
+	Cours de Monsieur R.Chami
+	\bibitem{Cours}
+	Cours de Madame L.Bouzar
+\end{thebibliography}
+\end{document}
